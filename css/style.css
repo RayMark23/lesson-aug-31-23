@@ -1,0 +1,144 @@
+/* Global Style */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+/* Navigation styles */
+#navbar{
+    background-color: #333;
+    overflow: auto;
+    text-align: left;
+}
+
+.nav-content{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#navbar a:hover{
+    background-color: #555;
+    color: white;
+}
+
+/* Hero Section Styles */
+#hero{
+    text-align: center;
+    padding: 100px 0;
+    background-color: #e9e9e9;
+}
+
+#hero h1{
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#hero p{
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#hero button{
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#hero button:hover{
+    background-color: #555;
+    color: #fff;
+}
+
+/* Cards styles */
+#card{
+    padding: 50px 0;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    max-height: 200px;
+    display: block;
+    object-fit: cover;
+}
+
+.card h2,
+.card p{
+    padding: 10px;
+    text-align: left;
+}
+
+.card .a{
+    text-shadow: 1px 1px 2px red, 0 0 25px orange, 0 0 5px gold;
+}
+
+.card .b {
+    text-shadow: 1px 1px 2px white, 0 0 25px turquoise, 0 0 5px blue;
+}
+
+.card .c {
+    text-shadow: 1px 1px 2px rgb(172, 23, 172), 0 0 25px violet, 0 0 5px pink;
+}
+
+/* Footer styles */
+#footer{
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+#footer p{
+    margin: 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icons{
+   display: inline-block; 
+}
+
+.fa-iocn{
+    font-size: 24px; /* adjustable */
+    margin:0 10px;
+    transition: opacity 0.3s;
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-iocn img{
+    width: 24px; /* adjustable */
+    height: 23px; /* adjustable */
+}
+
+.fa-iocn:hover{
+    opacity: 0.7;
+}
